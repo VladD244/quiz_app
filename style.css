@@ -18,3 +18,24 @@ button:hover {
 li {
     list-style: none;
 }
+.explanation {
+    font-style: italic;
+}
+body {
+    background-color: #efeded;
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+.quiz-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 7px 0 rgba(146, 146, 146, 0.3);
+}
+.right {
+    color: green;
+    font-weight: bold;
+}
